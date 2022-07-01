@@ -6,7 +6,7 @@ import LogoImg from '../Navbar/Yeonfolio.png';
 const NavbarContainer = styled.nav`
     width: 100%;
     height: ${(props) => (props.extendNavbar ? "100vh" : "80px")};
-    background-color: #f5e8da;
+    background-color: black;
     display: flex;
     flex-direction: column;
 
@@ -20,15 +20,16 @@ const LeftContainer = styled.div`
     display: flex;
     align-items: center;
     padding-left: 5%;
-    background-color: #f5e8da;
+    background-color: black;
 `;
 
 const RightContainer = styled.div`
     flex: 30%;
     display: flex;
     justify-content: center;
-    padding-right: 50px;
-    background-color: #f5e8da;
+    margin-top: 15px;
+    padding-right: 30px;
+    background-color: black;
 `;
 
 const NavbarInnerContainer = styled.div`
@@ -42,11 +43,11 @@ const NavbarLinkContainer = styled.div`
 `;
 
 const NavbarLink = styled(Link)`
-    color: #f39f9d;
-    font-size: x-large;
-    font-family: 'Gamja Flower', cursive;
+    color: white;
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    margin: 10px;
+    margin: 15px;
 
     @media (max-width: 700px) {
         display: none;
@@ -54,11 +55,11 @@ const NavbarLink = styled(Link)`
 `;
 
 export const NavbarLinkExtended = styled(Link)`
-    color: #f39f9d;
+    color: white;
     font-size: x-large;
-    font-family: 'Gamja Flower', cursive;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    margin: 10px;
+    margin: 15px;
 `;
 
 const Logo = styled.img`
@@ -68,12 +69,12 @@ const Logo = styled.img`
 `;
 
 const OpenLinksButton = styled.button`
-    width: 70px;
+    width: 0;
     height: 50px;
     background: none;
     border: none;
-    color: #f39f9d;
-    font-size: 45px;
+    color: white;
+    font-size: 35px;
     cursor: pointer;
 
     @media (min-width: 700px) {
@@ -99,7 +100,10 @@ const Navbar = () => {
         <NavbarContainer extendNavbar={extendNavbar}>
             <NavbarInnerContainer>
                 <LeftContainer>
-                    <NavbarLinkContainer>
+                    <Logo src={LogoImg} />
+                </LeftContainer>
+                <RightContainer>
+                <NavbarLinkContainer>
                         <NavbarLink to='/'>Home</NavbarLink>
                         <NavbarLink to='/about'>About</NavbarLink>
                         <NavbarLink to='/project'>Project</NavbarLink>
@@ -112,9 +116,6 @@ const Navbar = () => {
                             {extendNavbar ? <>&#10005;</> : <> &#8801;</>}
                         </OpenLinksButton>
                     </NavbarLinkContainer>
-                </LeftContainer>
-                <RightContainer>
-                    <Logo src={LogoImg} />
                 </RightContainer>
             </NavbarInnerContainer>
             {extendNavbar && (
