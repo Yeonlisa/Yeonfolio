@@ -54,7 +54,7 @@ const NavbarLink = styled(Link)`
     }
 `;
 
-export const NavbarLinkExtended = styled(Link)`
+const NavbarLinkExtended = styled(Link)`
     color: white;
     font-size: x-large;
     font-family: 'Roboto', sans-serif;
@@ -103,7 +103,7 @@ const Navbar = () => {
                     <Logo src={LogoImg} />
                 </LeftContainer>
                 <RightContainer>
-                <NavbarLinkContainer>
+                    <NavbarLinkContainer>
                         <NavbarLink to='/'>Home</NavbarLink>
                         <NavbarLink to='/about'>About</NavbarLink>
                         <NavbarLink to='/project'>Project</NavbarLink>
@@ -113,7 +113,7 @@ const Navbar = () => {
                                 setExtendNavbar((curr) => !curr);
                             }}
                         >
-                            {extendNavbar ? <>&#10005;</> : <> &#8801;</>}
+                        {extendNavbar ? <>&#10005;</> : <> &#8801;</>}
                         </OpenLinksButton>
                     </NavbarLinkContainer>
                 </RightContainer>
