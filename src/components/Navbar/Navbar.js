@@ -9,6 +9,9 @@ const NavbarContainer = styled.nav`
     background-color: black;
     display: flex;
     flex-direction: column;
+    position: fixed;
+    top: 0;
+    z-index: 100000;
 
     @media (min-width: 700px) {
         height: 80px;
@@ -100,7 +103,7 @@ const Navbar = () => {
         <NavbarContainer extendNavbar={extendNavbar}>
             <NavbarInnerContainer>
                 <LeftContainer>
-                    <Logo src={LogoImg} />
+                    <Logo src={LogoImg} alt="" />
                 </LeftContainer>
                 <RightContainer>
                     <NavbarLinkContainer>
