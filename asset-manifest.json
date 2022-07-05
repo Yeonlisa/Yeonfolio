@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Yeonfolio/static/css/main.509d1d87.css",
+    "main.js": "/Yeonfolio/static/js/main.0bd29832.js",
+    "static/media/Challengers.png": "/Yeonfolio/static/media/Challengers.e5fc96e7e5aceebf22a5.png",
+    "static/media/Lollin.png": "/Yeonfolio/static/media/Lollin.8014402eb8750dacb870.png",
+    "static/media/CSS_Source.png": "/Yeonfolio/static/media/CSS_Source.afd7c107e8bdc4d46246.png",
+    "static/media/Flappy-Bird.png": "/Yeonfolio/static/media/Flappy-Bird.d77a02562a03a3fbba64.png",
+    "static/media/Yeonfolio.png": "/Yeonfolio/static/media/Yeonfolio.2db2da5946d0db12c1e0.png",
+    "static/media/react.svg": "/Yeonfolio/static/media/react.732b7e48a8a58ccbc7d41abd47f7c846.svg",
+    "static/media/styledcomponents.svg": "/Yeonfolio/static/media/styledcomponents.7fccb78b19beface0a47cfda6646a4c3.svg",
+    "static/media/redux.svg": "/Yeonfolio/static/media/redux.fafa4c6ea58ae7e2194a8e85709c179c.svg",
+    "static/media/javascript.svg": "/Yeonfolio/static/media/javascript.0003a681335156493cb8fa27c53c1166.svg",
+    "index.html": "/Yeonfolio/index.html",
+    "static/media/css3.svg": "/Yeonfolio/static/media/css3.7f4ec9d79db123308d8c91110fe07d26.svg",
+    "static/media/html5.svg": "/Yeonfolio/static/media/html5.75f2a102e81009c29e0d8ce8785e5e10.svg",
+    "main.509d1d87.css.map": "/Yeonfolio/static/css/main.509d1d87.css.map",
+    "main.0bd29832.js.map": "/Yeonfolio/static/js/main.0bd29832.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.509d1d87.css",
+    "static/js/main.0bd29832.js"
+  ]
+}
