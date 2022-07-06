@@ -3,6 +3,11 @@ import styled from 'styled-components';
 
 const TitleStyled = styled.div`
     position: relative;
+
+    @media screen and (max-width: 700px){
+        margin-top: 3rem;
+        font-size: 2.8rem;
+    }
 `;
 
 const TitleName = styled.h2`
@@ -11,7 +16,8 @@ const TitleName = styled.h2`
     font-weight: 600;
     text-transform: uppercase;
     position: relative;
-    padding-bottom: .5rem;
+    padding-bottom: 0.5rem;
+    margin-left: 1rem;
     
     @media screen and (max-width: 700px){
         margin-top: 3rem;
