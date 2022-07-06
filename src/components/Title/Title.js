@@ -13,13 +13,9 @@ const TitleName = styled.h2`
     position: relative;
     padding-bottom: .5rem;
     
-    @media screen and (max-width: 496px){
+    @media screen and (max-width: 700px){
         margin-top: 3rem;
         font-size: 2.8rem;
-    }
-        
-    @media screen and (max-width: 370px){
-        font-size: 2rem;
     }
 `;
 
