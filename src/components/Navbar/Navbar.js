@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import LogoImg from '../Navbar/Yeonfolio.png';
+import { FaBars } from 'react-icons/fa';
+import { FaTimes } from 'react-icons/fa'; 
 
 const NavbarContainer = styled.nav`
     width: 100%;
@@ -14,7 +16,7 @@ const NavbarContainer = styled.nav`
     z-index: 100000;
 
     @media (min-width: 700px) {
-        height: 80px;
+        height: 50px;
     }
 `;
 
@@ -95,6 +97,36 @@ const NavbarExtendedContainer = styled.div`
     }
 `;
 
+const Bars = styled(FaBars)`
+    display: none;
+    color: #fff;
+    
+    @media screen and (max-width: 700px) {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 75%);
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+`;
+
+const CloseBars = styled(FaTimes)`
+    display: none;
+    color: #fff;
+    
+    @media screen and (max-width: 700px) {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 75%);
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+`
+
 const Navbar = () => {
 
     const [extendNavbar, setExtendNavbar] = useState(false);
@@ -116,7 +148,7 @@ const Navbar = () => {
                                 setExtendNavbar((curr) => !curr);
                             }}
                         >
-                        {extendNavbar ? <>&#10005;</> : <> &#8801;</>}
+                        {extendNavbar ? <CloseBars /> : <Bars />}
                         </OpenLinksButton>
                     </NavbarLinkContainer>
                 </RightContainer>

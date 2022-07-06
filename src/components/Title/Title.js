@@ -14,6 +14,7 @@ const TitleName = styled.h2`
     padding-bottom: .5rem;
     
     @media screen and (max-width: 496px){
+        margin-top: 3rem;
         font-size: 2.8rem;
     }
         
