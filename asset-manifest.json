@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Yeonfolio/static/css/main.509d1d87.css",
-    "main.js": "/Yeonfolio/static/js/main.051c0192.js",
+    "main.js": "/Yeonfolio/static/js/main.afa583e0.js",
     "static/media/Challengers.png": "/Yeonfolio/static/media/Challengers.e5fc96e7e5aceebf22a5.png",
     "static/media/Lollin.png": "/Yeonfolio/static/media/Lollin.8014402eb8750dacb870.png",
     "static/media/CSS_Source.png": "/Yeonfolio/static/media/CSS_Source.afd7c107e8bdc4d46246.png",
@@ -15,10 +15,10 @@
     "static/media/css3.svg": "/Yeonfolio/static/media/css3.7f4ec9d79db123308d8c91110fe07d26.svg",
     "static/media/html5.svg": "/Yeonfolio/static/media/html5.75f2a102e81009c29e0d8ce8785e5e10.svg",
     "main.509d1d87.css.map": "/Yeonfolio/static/css/main.509d1d87.css.map",
-    "main.051c0192.js.map": "/Yeonfolio/static/js/main.051c0192.js.map"
+    "main.afa583e0.js.map": "/Yeonfolio/static/js/main.afa583e0.js.map"
   },
   "entrypoints": [
     "static/css/main.509d1d87.css",
-    "static/js/main.051c0192.js"
+    "static/js/main.afa583e0.js"
   ]
 }
