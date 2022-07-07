@@ -95,7 +95,6 @@ const Contactpage = () => {
                     </ContactFiend>
                 </ContactForm>
                 <RightContent>
-                    <ContactItem title={'phone'} con={'010-5244-5619'} />
                     <ContactItem title={'Email'} con={'tkzw4869@gmail.com'} />
                 </RightContent>
             </InnerLayout>
